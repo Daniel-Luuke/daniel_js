@@ -1,6 +1,14 @@
 let randomNum = Math.floor(Math.random() * 50) + 1;
-if (randomNum % 3 === 0) {
-  console.log("fizz");
-} else if (randomNum % 5 === 0) {
-  console.log("buzz");
+switch (true) {
+  case randomNum % 3 === 0 && randomNum % 5 === 0:
+    console.log("fizzbuzz");
+    break;
+  case randomNum % 3 === 0:
+    console.log("fizz");
+    break;
+  case randomNum % 5 === 0:
+    console.log("buzz");
+    break;
+  default:
+    console.log("Null");
 }
