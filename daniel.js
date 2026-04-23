@@ -10,5 +10,5 @@ switch (true) {
     console.log("fizzbuzz");
     break;
   default:
-    console.log("Null");
+    console.log(randomNum);
 }
